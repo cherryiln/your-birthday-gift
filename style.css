@@ -1584,24 +1584,7 @@ button{
     user-select:none;
 
 }
-.wave-sticker{
 
-    position:absolute;
-
-    bottom:2px;
-
-    left:50%;
-    right:50%;
-
-    transform:translateX(-50%);
-
-    width:620px;
-
-    pointer-events:none;
-
-    user-select:none;
-
-}
 #whale-sticker{
 
     position:absolute;
