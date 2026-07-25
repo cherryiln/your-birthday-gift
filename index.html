@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Letter</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/verveine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop playsinline id="background-video">
+        <source src="videos/ocean.mp4" type="video/mp4">
+    </video>
+    <div id="desktop-overlay"></div>
+    <div id="birthday-card">
+
+    <h1>Are you 22 yet?</h1>
+
+    <div class="buttons">
+        <button id="no-btn">Not yet</button>
+        <button id="yes-btn">I am 🌊</button>
+    </div>
+
+    <p id="message"></p>
+
+    <button id="wish-btn">
+        I did 👍🏻
+    </button>
+
+    </div>
+
+  <div class="desktop">
+
+  <div id="sticky-notes">
+
+    <div class="sticky pink">
+        <img class="sticky-bg" src="images/notes/pink-note2.png">
+
+        <img class="sticky-doodle" src="images/decorations/candle-cake.gif">
+
+        <p class="sticky-text verveine">
+            doing your best might look diffrent each day, 
+            but at least you're trying.
+        </p>
+    </div>
+
+    <div class="sticky blue">
+
+        <img class="sticky-bg" src="images/notes/blue-note.png">
+
+        <img class="sticky-doodle" src="images/decorations/snoopy.gif">
+
+        <p class="sticky-text nanum">
+             do it for the little 
+             kid that lives within you
+        </p>
+
+    </div>
+
+</div>
+    <h1 id="birthday-title">Happy Birthday ★</h1>
+
+    <img src="images/decorations/cloud.png" id="cloud">
+
+    <img src="images/characters/nyota5.png" id="nyota">
+    <div id="nyota-bubble">
+
+      Will you tell me about your wish...
+      <br>
+      later?
+
+    </div>
+
+    <div class="icon" id="cake">
+        <img src="images/icons/cake.png">
+        <p>for u</p>
+    </div>
+
+    <div class="icon" id="star">
+        <img src="images/icons/pinkstar.png">
+        <p>little things</p>
+    </div>
+
+    <div class="icon" id="fish">
+        <img src="images/icons/fish.png">
+        <p>Friendship</p>
+    </div>
+
+    <div class="icon" id="cat">
+        <img src="images/icons/cam.png">
+        <p>future</p>
+    </div>
+
+    <div class="icon" id="apple">
+        <img src="images/icons/cochle.png">
+        <p>nothing</p>
+    </div>
+
+    <div class="icon" id="candy">
+        <img src="images/icons/candy.png">
+        <p>my diaries</p>
+    </div>
+
+    <img id="whale-sticker"
+     src="images/decorations/whale.png">
+
+    <img id="catstar-sticker"
+     src="images/decorations/catstar.png">
+     
+    <img class="wave-sticker"
+      src="images/decorations/wave.png">
+
+</div>
+
+<div id="letter-overlay">
+
+    <button id="close-letter">
+    <img src="images/decorations/close.png">
+    </button>
+    <div id="letter-paper">
+
+        
+        <div id="letter-content">
+
+
+            <h2>Why I Made This</h2>
+
+            <p>happy birthday buddy!!! </p>
+            <p>probably you just started your day nd you're facing all this already.. i still hope you like it, it was made for u after a long debate whether it's too much or u simply deserved it.. nd u actually do deserve it, </p>
+            <br><br>
+            <p>I've known you for almost a year nd half now nd we've done so much together, we've watched a movie nd played games nd shared so many things about our lifes so you're basically a real life friend for me nd deserve to get something more valuable than just a happy bday in chat,</p>
+            <br><br>
+            <p> this gift can be taken as an advanced ver of emails.. u'll read so many sincere nd silly words hiddenin different icons, some are short nd cheerful nd others can be long nd heartfelt, anyway, it's all urs now mate.. nd I also hope u like the background since u love both blue nd the beach.. </p>
+            <br><br>
+            <p>sea you in the next letter!!!</p>
+            
+            <img class="letter-star"
+              src="images/decorations/paperstar.png">
+
+        </div>
+
+    </div>
+</div>
+
+<div id="littlethings-window">
+
+    <div class="little-option">
+
+        <img id="blue1" class="little-sticker" src="images/decorations/blue1.png">
+
+        <p class="little-title">
+            things that remind me of u
+        </p>
+
+    </div>
+
+    <div class="little-option">
+
+        <img id="blue2" class="little-sticker" src="images/decorations/blue2.png">
+
+        <p class="little-title">
+            things i like about u
+        </p>
+
+    </div>
+
+    <div class="little-option">
+
+        <img id="blue3" class="little-sticker" src="images/decorations/blue3.png">
+
+        <p class="little-title">
+            things u don't know
+        </p>
+
+    </div>
+
+</div>
+<div id="little-page1" class="little-page hidden">
+
+    <button id="close1" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+
+   <div class="little-content">
+
+    <h2>
+     Things That Remind Me of U
+    </h2>
+
+     <p>♡  the whale, remember our chat theme.. i always get reminded of that when seeing a little blue whale</p>
+
+     <p>♡  simply blue and anything that has that colour, the ocean as well</p>
+
+     <p>♡  coffee, whenever i tried it i be questioning why ppl even like it, then i realised it's not abt it being too sweet or too sour.. it's just the coffee.. (i failed to say something smart as much as I failed to like it)</p>
+
+     <p>♡  the effortlessly funny cartoon characters like the dog from Shawn the sheep nd jake from adventure time.. yeah mostly dogs..</p>
+
+     <p>♡  black pawn, cuz i still wanna buy u that key chain i once promised.. probably u forgot it</p>
+
+     <p>♡ first the night sky, then sunset, then the light rain and now simply the beach, in each season something had quietly reminded me of you, little moments had captured pieces of ur soul or maybe i knew too little to imagine you so I thought of you when i had seen something that made me at peace?</p>
+
+     <p>♡ blue, your favourite one of course i won't forget that, but have you heard that golden orange feels like you as well? that fire-like light of the sun when it sets, unlike blue who seems cool nd deep, at first sight.. it feels fiers and burning with passion and ambition, but from a far.. it's warm and tired like the end of a day</p>
+   </div>
+</div>
+
+<div id="little-page2" class="little-page hidden">
+
+    <button id="close2" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+  <div class="little-content">
+    <h2>
+      Things I Like About U
+    </h2>
+
+     <p>♡ I like how passionately u talk about what u love</p>
+
+     <p>♡ I like that u'r funny but calm but also cool.. yeah</p>
+
+     <p>♡ I like that we have the same birth month </p>
+
+     <p>♡ I like ur tiny "tell me what's wrong" even when i have nothing to say</p>
+
+     <p>♡ I like ur nephew?</p>
+
+     <p>♡ i like that u somehow made an online friendship feel like a real one.</p>
+
+     <p>♡ i like that u're simply... u.</p>
+
+     <p>♡ nd I like that I only know a little about u nd i can be more curious about the rest</p>
+  </div>
+
+</div>
+
+<div id="little-page3" class="little-page hidden">
+
+    <button id="close3" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+   <div class="little-content">
+    <h2>
+      Things U Don't Know
+    </h2>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+
+     <p>♡ </p>
+   </div>
+</div>
+
+<div id="future-window" class="hidden">
+
+    <button id="close-future" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+
+    <img id="future-paper"
+        src="images/background/blue.paper.png">
+
+    <div id="future-content">
+
+        <p class="future-thought t1">i wonder where we'll be in 9 years.</p>
+
+        <p class="future-thought t2">maybe we'll become actual adults... scary..</p>
+
+        <p class="future-thought t3">maybe you'll find a job.. maybe more than one</p>
+
+        <p class="future-thought t4">maybe we actually sit to a chess board all night</p>
+
+        <p class="future-thought t5">we might celebrate your 90th birthday and
+             you'll still insist you can beat me?</p>
+
+        <p class="future-thought t6">let's accidentally get lost in a mountain 
+            and call it an adventure.</p>
+        <p class="future-thought t7">maybe we'll accidentally meet a cat that decides
+             to adopt both of us.</p>
+        <p class="future-thought t8">maybe we won't do any of these things.</p>
+        <p class="future-thought t9">but i still hope that, years from now,
+             i'll get to say, "hey, u still remember your 22nd birthday?"</p>
+        <p class="future-thought t10">hope we can live to that future ♡</p>
+
+    </div>
+
+</div>
+<div id="friendship-window">
+
+    <button id="close-friendship" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+  <div id="friend-wrapper">
+      <img id="friendship-paper" src="images/background/pink-paper.png">
+
+       <div id="friendship-content">
+
+     <div class="friend-page active">
+
+          <h2>Still Choosing You</h2>
+
+          <p>
+             sometimes life does get hard, and we get to ask since when everything went wrong, looking back to the old days and simple life we had nd only cherish it from afar, same with the people that we had before, we don't get to choose who enters our lifes, some just leave and we don't hear about them again and some other stay for years but you're no longer longing for them to be there, everyone we've ever met was absolutely for a reason -ig i told u befor how much ur presence helped me first when we met- , we definitely needed them at some points of our lifes, and keeping them or looking for them again is our choice, to ask a friend to meet up again or simply call someone who you haven't connected with in years, it's all our choice, 
+          </p>
+
+      </div>
+
+      <div class="friend-page">
+
+          <p>
+             for me, you're the kind of person i enjoy spending time with, five minutes or a whole week? it doesn't matter as long as I was there with you for a moment, but when you're far, there is times where I feel like I stopped choosing to be in contact with you, I feel bad for not checking on you but not like I'm obliged to, but cuz i still want to be connected to you nd I'm afraid the distance take my person away, some other times i miss you when I'm feeling kinda stressed, not cause you have the absolute solution.. idk but i still miss to talk to you nd think it will be easier even if i didn't share what was stressing me..
+          </p>
+
+      </div>
+
+      <div class="friend-page">
+
+         <p>
+             recently i realized how easy it is to keep thinking about someone while forgetting to actually reach out. i had missed the chance to tell someone they still mattered to me, and that lead to loosing them nd the part of me that was related to them, and it made me feel bad enough that i promised to never take anyone for granted, if i love my people i still have to be with them and choose them everyday, our hearts might be together but so we have to be close to them.. at least from my own side, I won't stop going for the people i love
+             so if i disappear for a while sometimes, or if life doesn't stop getting us apart, i still hope you'll know that you're someone i want to keep choosing. friendships don't stay alive on memories alone, they stay alive because someone keeps reaching out. i'd like to be that someone.
+         </p>
+
+      </div>
+     </div>
+
+        <button id="next-friend">
+          <img src="images/decorations/next.gif">
+        </button>
+     
+   </div>
+</div>
+
+<div id="diary-window">
+
+    <button id="close-diary" class="close-btn">
+        <img src="images/decorations/close.png">
+    </button>
+
+    <div id="diary-wrapper">
+
+        <img id="diary-paper"
+             src="images/background/diary.png">
+
+        <div id="diary-content">
+
+            <!-- PAGE 1 -->
+            <div class="diary-spread active">
+
+                <h2>Cherry's Diaries</h2>
+
+                <div class="left-page">
+                    <p style="color:#495589;">
+                        **A Letter To Him**
+                       <br></br>
+                        ""I see it clearly now. The care you gave me was genuine, steady, and kind.. not the weight of romance, but the warmth of someone who truly wanted the best for me. You guided me away from places I might have been hurt, you reminded me to choose my life, my work, my growth. You didn't want to be a distraction, and that itself was love in its own way.         
+
+                    </p>
+                </div>
+
+                <div class="right-page">
+                    <p style="color:#495589;">
+                      I know now you didn't owe me constant presence, nor did you promise the kind of closeness I once wished for. Yet, you still called me dear. You still laughed with me, played with me, believed in me. And for that, I will always be grateful. 
+                      <br></br>
+                      You left your mark, not through possession, but through protection. Not through promises, but through prayers. And I honor that now — lighter, freer, understanding it wasn't less, it was simply different.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- PAGE 2 -->
+            <div class="diary-spread">
+
+                <div class="left-page2">
+                    <p>
+                      <span class="special-text"> I love you still, but with peace. I look forward to you still, but without waiting. Thank you for being exactly what you were in my life."" </span>
+                      <br></br>
+                      I have wrote this around the summer of last year, it's an old letter that was never meant to be sent to u, but now the letter showed up as part of my diary.. it is free now ig
+                      <br></br>
+                      cherry of that time had gone thru so many hard days nd i belive she cried a lot but hated to admit it,
+                    </p>
+                </div>
+
+                <div class="right-page2">
+                    <p>
+                      nd so manny unnessesary thoughts has been weighting down on her head that she thought to finally acknowledge, write it on a paper, nd just let it be,
+                      <br></br>
+                      this letter that u'r seeing now is the final chapter of that diary, the ease nd peace for her, it was never ur fault nd she had never blamed u on a single thought in her head, u were just existing there why would u have to be guilty for it?
+                      <br></br>
+                      finally,.. 
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- NEXT BUTTON -->
+        <img src="images/decorations/next.gif" id="next-diary">
+
+    </div>
+
+</div>
+
+<div id="music-player">
+
+    <button id="music-btn">▶</button>
+
+</div>
+
+<audio id="bg-music" loop>
+     <source src="images/music/audio.mp3" type="audio/mpeg">
+</audio>
+
+    <script src="script.js"></script>
+
+    <div id="sparkles"></div>
+
+</body>
+
+</html>
