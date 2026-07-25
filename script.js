@@ -246,7 +246,7 @@ closeLetter.onclick = function(){
 
     nyotaTalk(
         "have u tried clicking on the cloud yet?",
-        "Nyota2.png"
+        "nyota1.png"
     );
 }
 
@@ -268,7 +268,7 @@ stickyContainer.addEventListener("click", function(){
         visibleNote.classList.remove("change");
 
     },300);
-    
+
     nyotaTalk(
         "it is impressive that u found that one..", 
         "nyota3.png"
@@ -396,7 +396,7 @@ closeFuture.onclick = function(){
 
     nyotaTalk(
         "90-year-old chess tournament when?",
-        "Nyota2.png"
+        "nyota2.png"
     );
 
 }
@@ -466,7 +466,7 @@ closeDiary.onclick = function(){
 
     nyotaTalk(
         "hehe... i probably wasn't supposed to let u read this one.",
-        "Nyota4.png"
+        "nyota4.png"
     );
 
 }
