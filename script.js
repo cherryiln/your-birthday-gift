@@ -420,6 +420,10 @@ closeFriendship.onclick = function(){
     friendshipWindow.classList.remove("show");
 
     desktop.classList.remove("blur");
+    nyotaTalk(
+        "will u promis me to stay my friend for the next 9years?",
+        "nyota6.png"
+        );
 
 }
 const pages = document.querySelectorAll(".friend-page");
